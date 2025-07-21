@@ -9,7 +9,6 @@ class Solution {
             ptr.next.val = temp;
             ptr = ptr.next.next;
         }
-
         return head;
     }
 }
